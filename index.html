@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -26,10 +28,10 @@
 
         </section>
         <nav class="fs-5 gap-4 align-items-center">
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Services</a>
-            <button class="btn btn-primary px-3 fs-5">Contact</button>
+            <a href="#">Home</a>
+            <a href="#hero">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact" class="text-light btn btn-primary px-3 fs-5">Contact</a>
         </nav>
 
         <!-- Side bar -->
@@ -55,35 +57,168 @@
     </header>
 
 
-    <section class="container my-5">
+    <section class="container my-5" id="hero"> 
         <section class="row justify-content-center gap-5 align-items-center">
             <!-- TEXT PART -->
             <section class="col-md-5 col-12">
                 <div class="pop">
-                    <h1 class="display-5">Lorem ipsum dolor !</h1>
-                    <h4 class="fs-4">Lorem ipsum dolor sit amet.</h4>
+                    <h1 class="display-5" data-aos="fade-up" data-aos-duration="1000">Lorem ipsum dolor !</h1>
+                    <h4 class="fs-5" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">Lorem ipsum dolor sit amet.</h4>
                     <p class="text-secondary text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Laborum quidem at ipsam tenetur dicta beatae
                         ipsa possimus distinctio fuga ex voluptates, rerum earum harum, quam totam qui perferendis
                         necessitatibus suscipit!
                     </p>
-                    <button class="btn btn-primary px-5">Get Started</button>
+                    <button class="btn btn-primary px-5 hero-btn" data-aos="zoom-in-up" data-aos-duration="1000">Get Started</button>
                 </div>
             </section>
             <!-- IMAGE PART -->
-            <section class="col-md-5 col-12 d-flex justify-content-center">
-                <img src="https://picsum.photos/500" alt="hero image" class="img-fluid mx-auto" width="400px">
+            <section class="col-md-5 col-12 d-flex justify-content-center" data-aos="zoom-in-up" data-aos-duration="1000">
+                <img src="https://picsum.photos/500" alt="hero image" class="hero-image img-fluid mx-auto rounded" width="400px">
             </section>
         </section>
     </section>
 
     <hr class="container">
 
+    <main>
+        <section class="pop" id="services">
+            <h2 class="fs-4 text-center ls-2 my-3">OUR SERVICES</h2>
+            <section class="container my-5 d-flex justify-content-center align-items-center gap-3 flex-wrap">
+
+                <div class="service-pot col-md-3 col-12">
+                    <img src="https://picsum.photos/1000" alt="service pot" class="img-fluid w-100 mx-auto rounded">
+                    <div
+                        class="service-title p-3 w-100 bg-glass position-absolute bottom-0 start-0  d-flex justify-content-center align-items-center">
+                        <h6 class="fs-6 text-shadow ls-2">Title Here</h6>
+                    </div>
+                </div>
+                <div class="service-pot col-md-3 col-12">
+                    <img src="https://picsum.photos/1000" alt="service pot" class="img-fluid w-100 mx-auto rounded">
+                    <div
+                        class="service-title p-3 w-100 bg-glass position-absolute bottom-0 start-0  d-flex justify-content-center align-items-center">
+                        <h6 class="fs-6 text-shadow ls-2">Title Here</h6>
+                    </div>
+                </div>
+                <div class="service-pot col-md-3 col-12">
+                    <img src="https://picsum.photos/1000" alt="service pot" class="img-fluid w-100 mx-auto rounded">
+                    <div
+                        class="service-title p-3 w-100 bg-glass position-absolute bottom-0 start-0  d-flex justify-content-center align-items-center">
+                        <h6 class="fs-6 text-shadow ls-2">Title Here</h6>
+                    </div>
+                </div>
+                <div class="service-pot col-md-3 col-12">
+                    <img src="https://picsum.photos/1000" alt="service pot" class="img-fluid w-100 mx-auto rounded">
+                    <div
+                        class="service-title p-3 w-100 bg-glass position-absolute bottom-0 start-0  d-flex justify-content-center align-items-center">
+                        <h6 class="fs-6 text-shadow ls-2">Title Here</h6>
+                    </div>
+                </div>
+                <div class="service-pot col-md-3 col-12">
+                    <img src="https://picsum.photos/1000" alt="service pot" class="img-fluid w-100 mx-auto rounded">
+                    <div
+                        class="service-title p-3 w-100 bg-glass position-absolute bottom-0 start-0  d-flex justify-content-center align-items-center">
+                        <h6 class="fs-6 text-shadow ls-2">Title Here</h6>
+                    </div>
+                </div>
+                <div class="service-pot col-md-3 col-12">
+                    <img src="https://picsum.photos/1000" alt="service pot" class="img-fluid w-100 mx-auto rounded">
+                    <div
+                        class="service-title p-3 w-100 bg-glass position-absolute bottom-0 start-0  d-flex justify-content-center align-items-center">
+                        <h6 class="fs-6 text-shadow ls-2">Title Here</h6>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <hr class="container">
+
+        <!-- Contact section -->
+        <section id="contact">
+            <h2 class="fs-4 text-center ls-2 my-3" data-aos="fade-up" data-aos-duration="1000">CONTACT US</h2>
+            <section class="container my-5">
+                <div class="row justify-content-around">
+                    <section class="col-md-5 col-12">
+                        <div class="container">
+                            <div class="row gap-3  justify-content-center">
+                                <div data-aos="zoom-in-up" data-aos-duration="1000" class="rounded contact-pot col-md-5 col-12 shadow-sm p-3 d-flex flex-column gap-1">
+                                    <span class="fs-1 text-primary material-symbols-outlined">
+                                        outgoing_mail
+                                    </span>
+                                    <h6 class="fs-6">EMAIL US</h6>
+                                    <a href="mailto:info@lebancode.com"
+                                        class="text-secondary ps-3">info@lebancode.com</a>
+                                </div>
+                                <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200" class="rounded contact-pot col-md-5 col-12 shadow-sm p-3 d-flex flex-column gap-1">
+                                    <span class="fs-1 text-primary material-symbols-outlined">
+                                        phone_forwarded
+                                    </span>
+
+                                    <h6 class="fs-6">CALL US</h6>
+                                    <a href="tel:123456789" class="text-secondary ps-3">+ 123456789</a>
+                                </div>
+                            </div>
+                            <div class="mt-3 row gap-3  justify-content-center">
+                                <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="400" 
+                                    class="rounded contact-pot col-md-5 col-12  shadow-sm p-3 d-flex flex-column gap-1">
+                                    <span class="fs-1 text-primary material-symbols-outlined">
+                                        where_to_vote
+                                    </span>
+
+                                    <h6 class="fs-6">OUR LOCATION</h6>
+                                    <p class="text-secondary text-justify ps-3">Lorem ipsum, dolor sit amet consectetur
+                                        adipisicing elit. In, neque.
+                                    </p>
+                                </div>
+                                <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="600" 
+                                    class="rounded contact-pot col-md-5 col-12  shadow-sm p-3 d-flex flex-column gap-1">
+                                    <span class="fs-1 text-primary material-symbols-outlined">
+                                        schedule
+                                    </span>
+
+                                    <h6 class="fs-6">OPEN HOURS</h6>
+                                    <p class="text-secondary text-justify ps-3">Lorem ipsum, dolor sit amet consectetur
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section class="col-md-5 col-12 d-flex gap-3 justify-content-center flex-column">
+                        <input  data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="0"  type="text" class="input-empty shadow-sm p-3 bg-light rounded" placeholder="Enter Name">
+                        <input  data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200"  type="text" class="input-empty shadow-sm p-3 bg-light rounded" placeholder="Enter Name">
+                        <textarea  data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="400"  name="" id="" cols="30" rows="10" class="input-empty shadow-sm p-3 bg-light rounded"
+                            placeholder="Type a message"></textarea>
+                        <button  data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="600"  class="btn btn-outline-primary">SUBMIT</button>
+                    </section>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <hr class="container">
+    <footer class="d-flex justify-content-center flex-column gap-3 my-3">
+        <section class="w-100 d-flex gap-4 text-secondary fs-4 justify-content-center">
+            <a href=""><i class="bi bi-whatsapp"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+        </section>
+        <small class="text-center pop">All Rights Reserved</small>
+    </footer>
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>

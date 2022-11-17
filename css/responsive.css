@@ -5,5 +5,11 @@
     .menu{
         display: block !important;
     }
+    .hero-btn{
+        width: 100%;
+    }
+    .hero-image{
+        width: 100%;
+    }
     
 }
