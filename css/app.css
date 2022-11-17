@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.pop {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+a {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+nav {
+    display: flex;
+}
+
+.menu {
+    display: none !important;
+    cursor: pointer;
+}
+
+.text-justify {
+    text-align: justify;
+}
