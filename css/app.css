@@ -59,3 +59,11 @@ nav {
     border: none;
     outline: none;
 }
+
+.spinner {
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
